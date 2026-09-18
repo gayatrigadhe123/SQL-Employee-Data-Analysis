@@ -1,4 +1,4 @@
-CREATE TABLE employees(
+CREATE TABLE Gemployees(
   employee_id INT PRIMARY KEY,
   employee_name VARCHAR(100),
   department VARCHAR(50),
@@ -6,7 +6,7 @@ CREATE TABLE employees(
   joining_data DATE
   );
 
-INSERT INTO employees(employee_id , employee_name, department , salary , joining_date )
+INSERT INTO Gemployees(employee_id , employee_name, department , salary , joining_date )
 VALUES
 (1,'Amit','IT',50000,'2022-01-10'),
 (2,'Priya','HR',40000,'2021-06-15'),
