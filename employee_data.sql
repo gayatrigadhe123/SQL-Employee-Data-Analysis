@@ -6,7 +6,7 @@ CREATE TABLE Gemployees(
   joining_data DATE
   );
 
-INSERT INTO Gemployees(employee_id , employee_name, department , salary , joining_date )
+INSERT INTO Gemployees(employee_id , employee_name, department , salary , joining_data )
 VALUES
 (1,'Amit','IT',50000,'2022-01-10'),
 (2,'Priya','HR',40000,'2021-06-15'),
